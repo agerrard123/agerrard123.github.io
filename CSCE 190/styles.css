@@ -1,0 +1,27 @@
+body {
+    background: #CFB53B;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.assignment {
+    display:flex;
+    padding:10px;
+    margin:10px;
+    background: #CFB53B;
+}
+
+.assignment img {
+    width:200px;
+    margin: 10px;
+    border:3px solid #CFB53B;
+}
+
+h1 {
+    color: #0F52BA;
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color: #CFB53B;
+}
