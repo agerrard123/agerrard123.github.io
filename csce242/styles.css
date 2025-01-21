@@ -12,15 +12,12 @@ body {
 }
 
 header {
+    text-align: center;
     color: white;
 }
 
 /* Typography */
-header {
-    text-align: center;
-}
 
 p {
-    text-align: center;
     color: blue;
 }
