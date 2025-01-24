@@ -1,52 +1,47 @@
 /* Structure */
-#main-header {
-    background-color: darkgray;
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-content {
-    background-color: maroon;
-    padding: 5px;
+#main-header h1 {
+    color: teal;
 }
 
-.column {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 15px;
+h2 {
+    color: teal;
+    width: 70%;
+    margin:auto; /* center */
+    padding: 20px;
 }
 
-.columns1of2 {
-    background-color: gainsboro;
-}
-
-.columns1of3, .columns2of3 {
-    background-color: brown;
-}
-
-.column1of4, .column2of4 {
-    background-color: pink;
+#firstDiv {
+    background-color: teal;
+    color: blanchedalmond;
+    width: 70%;
+    margin:auto; /* center */
+    padding: 10px;
 }
 
 /* Navigation */
 #main-nav ul {
-    padding-left: 0;
+    padding: 0;
+    text-align: center;
 }
 
 #main-nav li {
     list-style-type: none;
     padding: 5px;
-    background-color: dimgrey;
-    border-bottom: 1px solid darkgray;
+    background-color: salmon;
+    border-bottom: 1px solid teal;
 }
 
 #main-nav a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Typography */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 #main-header h1 {
     text-align: center;
