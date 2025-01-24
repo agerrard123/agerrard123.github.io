@@ -3,34 +3,34 @@ body {
     background-color: blanchedalmond;
 }
 
-#main-header h1 {
-    color: teal;
+.idea {
+    background:teal;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-#main-content h2 {
-    color: teal;
-    width: 70%;
-    margin:auto; /* center */
-    padding: 5px;
+.idea:nth-child(odd) {
+    background:salmon;
 }
 
-.column1of3 {
-    background-color: teal;
-    color: blanchedalmond;
-    width: 70%;
-    padding: 10px;
-    margin: 5px;
-    margin: auto; /*center */
+.two {
+    background-color: cornflowerblue;
+    
 }
 
-.column2of3 {
+.one {
     background-color: salmon;
-    color: blanchedalmond;
-    width: 70%;
-    padding: 10px;
-    margin: 5px;
-    margin:auto; /* center */
 }
+
+.three {
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
 
 /* Navigation */
 #main-nav ul {
@@ -60,13 +60,66 @@ body {
     text-align: center;
 }
 
+#main-header h1 {
+    color: teal;
+}
+
+#main-content h2 {
+    color: teal;
+    width: 70%;
+    margin:auto; /* center */
+    padding: 5px;
+}
+
+.two {
+    color: white;
+}
+
+.one {
+    color: white;
+}
+
+.three {
+    color: white;
+}
+
+a {
+    color: white;
+
+}
+
 /* Larger Resolutions */
 @media (min-width: 900px) {
-    #main-nav ul, .flex-container {
+    #main-nav ul, .columns {
         display: flex;
     }
 
-    #main-nav li {
+    .wrap {
+       flex-wrap:wrap;
+    }
+
+    #main-nav li, .one {
         flex: 1;
     }
+
+    .two-cols-kids div {
+        max-width:40%;
+    }
+
+    .one {
+        flex:1;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three-cols-kids div {
+        max-width:30%
+    }
+
+    .three {
+        flex:3;
+    }
+    
 }
