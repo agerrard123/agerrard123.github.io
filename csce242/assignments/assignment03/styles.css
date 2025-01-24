@@ -6,7 +6,6 @@ body {
 
 .idea {
     background:teal;
-    padding: 5px;
 }
 
 .idea:nth-child(odd) {
@@ -35,6 +34,10 @@ ul {
     list-style-type: none;
 }
 
+#main-footer {
+    text-align: center;
+    color: teal;
+}
 
 /* Navigation */
 #main-nav ul {
@@ -76,14 +79,17 @@ body {
     color: blanchedalmond;
     width: 70%;
     margin: auto;
+    padding: 5px;
 }
 
 .two {
     color: white;
+    padding: 5px;
 }
 
 .one {
     color: white;
+    padding: 5px;
 }
 
 .one h4 {
@@ -92,6 +98,7 @@ body {
 
 .three {
     color: white;
+    padding: 5px;
 }
 
 a {
