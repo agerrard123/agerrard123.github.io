@@ -1,21 +1,25 @@
 /* Structure */
 body {
     background-color: blanchedalmond;
+    border: 1px solid teal;
 }
 
 .idea {
     background:teal;
-    margin-bottom: 10px;
-    text-align: center;
+    padding: 5px;
 }
 
 .idea:nth-child(odd) {
     background:salmon;
 }
 
+.image {
+    /*color*/
+}
+
 .two {
     background-color: cornflowerblue;
-    
+    text-align: center;
 }
 
 .one {
@@ -58,17 +62,20 @@ body {
 
 #main-header h1 {
     text-align: center;
-}
-
-#main-header h1 {
     color: teal;
 }
 
 #main-content h2 {
     color: teal;
     width: 70%;
-    margin:auto; /* center */
+    margin: auto; /* center */
     padding: 5px;
+}
+
+.idea {
+    color: blanchedalmond;
+    width: 70%;
+    margin: auto;
 }
 
 .two {
@@ -77,6 +84,10 @@ body {
 
 .one {
     color: white;
+}
+
+.one h4 {
+    margin-left: 40px;
 }
 
 .three {
@@ -95,23 +106,24 @@ a {
     }
 
     .wrap {
-       flex-wrap:wrap;
+       flex-wrap: wrap;
     }
 
-    #main-nav li, .one {
+    #main-nav li {
         flex: 1;
+        border-right: 1px solid teal;
     }
 
     .two-cols-kids div {
         max-width:40%;
     }
 
-    .one {
-        flex:1;
-    }
-
     .two {
         flex:2;
+    }
+
+    .one {
+        flex: 1;
     }
 
     .three-cols-kids div {
