@@ -11,7 +11,7 @@ body {
     color: teal;
     width: 70%;
     margin:auto; /* center */
-    padding: 20px;
+    padding: 5px;
 }
 
 .column1of3 {
@@ -58,10 +58,6 @@ body {
 
 #main-header h1 {
     text-align: center;
-}
-
-#main-content h2 {
-    color: teal;
 }
 
 /* Larger Resolutions */
