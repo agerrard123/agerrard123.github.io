@@ -1,26 +1,35 @@
 /* Structure */
 body {
     background-color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main-header h1 {
     color: teal;
 }
 
-h2 {
+#main-content h2 {
     color: teal;
     width: 70%;
     margin:auto; /* center */
     padding: 20px;
 }
 
-#firstDiv {
+.column1of3 {
     background-color: teal;
     color: blanchedalmond;
     width: 70%;
-    margin:auto; /* center */
     padding: 10px;
+    margin: 5px;
+    margin: auto; /*center */
+}
+
+.column2of3 {
+    background-color: salmon;
+    color: blanchedalmond;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    margin:auto; /* center */
 }
 
 /* Navigation */
@@ -43,12 +52,16 @@ h2 {
 
 /* Typography */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #main-header h1 {
     text-align: center;
 }
 
 #main-content h2 {
-    color: white;
+    color: teal;
 }
 
 /* Larger Resolutions */
@@ -57,10 +70,7 @@ h2 {
         display: flex;
     }
 
-    #main-nav li, .columns1of2, .columns1of3, .column1of4 {
+    #main-nav li {
         flex: 1;
-    }
-    .columns2of3, .column2of4 {
-        flex: 2;
     }
 }
