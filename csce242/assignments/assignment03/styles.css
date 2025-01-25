@@ -1,20 +1,23 @@
 /* Structure */
 body {
-    background-color: blanchedalmond;
-    border: 1px solid teal;
+    background: blanchedalmond; /* sets the background for the entire project */
+    border: 1px solid teal; /* puts a border around the entire project */
 }
 
 .idea {
-    background:teal;
+    background:teal; /* background color for the first and third column */
 }
 
 .idea:nth-child(odd) {
-    background:salmon;
+    background:salmon; /* background color for the middle column */
+}
+
+.img {
+    /* set the color of the image here */
 }
 
 .two {
-    background-color: cornflowerblue;
-    text-align: center;
+    background: cornflowerblue; /* background color for the left-most column of titles */
 }
 
 .one {
@@ -23,7 +26,6 @@ body {
 
 .three {
     background-color:cornflowerblue;
-    text-align: center;
 }
 
 ul {
@@ -56,31 +58,41 @@ ul {
 /* Typography */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* change font for entire page */
 }
 
 #main-header h1 {
-    text-align: center;
-    color: teal;
+    text-align: center; /* centers the main header */
+    color: teal; /* text color */
 }
 
 #main-content h2 {
-    color: teal;
-    width: 70%;
+    color: teal; /* text color */
     margin: auto; /* center */
-    padding: 5px;
+    width: 71.5%; /* aligns this header with the content below */
+    padding: 5px; /* adds space between this header and the content below */
 }
 
 .idea {
-    color: blanchedalmond;
-    width: 70%;
-    margin: auto;
-    padding: 5px;
+    color: blanchedalmond; /* text color */
+    width: 70%; /* take up 70% of the page */
+    margin: auto; /* center the condent so 15% is empty on the left and right */
+    padding: 5px; /* adds space around entire column area */
+}
+
+.idea:nth-child(odd) {
+    padding: 5px; /* adds space around the entire column area */
+}
+
+.img {
+    text-align: center; /* centers the image in its respective column */
+    padding: 5px; /* adds sppace around the image itself */
 }
 
 .two {
     color: white;
     padding: 5px;
+    text-align: center;
 }
 
 .one {
@@ -95,6 +107,7 @@ body {
 .three {
     color: white;
     padding: 5px;
+    text-align: center;
 }
 
 a {
@@ -119,6 +132,11 @@ a {
 
     .two-cols-kids div {
         max-width:40%;
+    }
+
+    .img2 {
+        text-align: center;
+        padding: 5px;
     }
 
     .two {
