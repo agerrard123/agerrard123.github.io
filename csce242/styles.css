@@ -20,6 +20,11 @@ p {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .style {
     background-color: darkgrey;
     text-align: center;
