@@ -5,8 +5,9 @@ body {
 
 #content {
     background-color: lightgray;
+    width: 80%;
     margin: auto;
-    padding: 5px;
+    padding: 30px;
     border: 1px solid black;
 }
 
@@ -23,6 +24,7 @@ p {
     background-color: darkgrey;
     text-align: center;
     padding:5px;
+    margin: 30px;
     border: 1px solid black;
 }
 
