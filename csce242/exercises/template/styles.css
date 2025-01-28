@@ -1,6 +1,6 @@
 /* Structure */
 body {
-    background:url(images/forest.jpeg);
+    background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 header, footer {
-    background-color: rgb(133, 78, 144);
+    background-color: burlywood;
     padding: 5px;
     color:white;
 }
