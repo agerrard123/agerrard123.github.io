@@ -16,7 +16,6 @@ body {
 
 header, footer {
     background-color: burlywood;
-    padding: 5px;
     color:white;
 }
 
@@ -27,7 +26,9 @@ header, footer {
 
 #main-nav li {
     list-style-type: none; /*remove the bullets */
-    display:inline-block;
+    background: sienna;
+    text-align: center;
+    border-bottom: 1px solid white;
 }
 
 #main-nav a {
@@ -48,4 +49,19 @@ header h1 {
 
 footer p {
     text-align: center;
+}
+
+/* Larger Screens */
+@media only screen and (min-width: 768px) {
+    .columns {
+        display: flex;
+    }
+
+    #main-nav li {
+        flex: 1; 
+    }
+
+    #main-nav li:not(:last-child) {
+        border-right: 1px solid white;
+    }
 }
