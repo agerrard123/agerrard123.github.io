@@ -5,10 +5,8 @@ body {
 }
 
 #main-header {
-    background: black;
-    width: 100%;   
+    background: black; 
     padding: 5px;
-
 }
 
 #main-footer {
@@ -17,7 +15,28 @@ body {
     color: white;
 }
 
+.two {
+    border-top: 1px solid gray;
+}
 
+.news {
+    padding: 5px;
+}
+.main-img {
+    text-align: center;
+}
+
+.style {
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid transparent;
+    display: flex;
+    flex: 1;
+}
+
+.idea-img {
+    padding: 5px;
+}
 
 /*Navigation */
 #main-nav {
@@ -33,7 +52,7 @@ body {
 #main-nav li {
     list-style-type: none;
     background: black;
-    width: 100%;
+
     border-bottom: 1px solid white;
     padding: 5px;
 }
@@ -48,17 +67,19 @@ body {
     color:red;
 }
 
-#main-content li {
+.college li {
     list-style-type: none;
     background: darkred;
-    width: 100%;
     padding: 5px;
+
 }
 
-#main-content a {
+.college a {
     color: white;
     text-decoration: none;
 }
+
+
 
 /* Typography */
 header h1 {
@@ -71,12 +92,11 @@ footer p {
 
 /* Larger Screens */
 @media only screen and (min-width: 900px) {
-    .flex-container {
+    .flex-container, .two, .style, .columns, .news {
         display: flex;
     }
 
     #main-header {
-        width: 80%;
         margin: auto;
     }
 
@@ -91,4 +111,31 @@ footer p {
         display: inline;
         text-align: right;
     }
+
+    .college li {
+        font-size: larger;
+    }
+
+    .style {
+        flex-wrap: wrap;
+    }
+
+    .two {
+        width: 70%;
+        margin-left: 30%;
+        border-top: 1px solid gray;
+    }
+    
+    #part1 p {
+    
+        width: 47%;
+        margin-left: 30%;
+        
+    }
+
+    #columns {
+        flex-wrap: wrap;
+    }
+    
+    
 }
