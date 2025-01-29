@@ -49,6 +49,7 @@ body {
     margin: 20px;
 }
 
+
 /*Navigation */
 #main-nav {
     background: black;
@@ -63,7 +64,6 @@ body {
 #main-nav li {
     list-style-type: none;
     background: black;
-
     border-bottom: 1px solid white;
     padding: 5px;
 }
@@ -101,6 +101,43 @@ body {
     display: inline;
 }
 
+#end {
+    background: lightgray;
+    padding: 1px;
+    display: flex;
+}
+
+#end ul {
+    font-size: small;
+    text-align: right;
+    
+}
+
+#end li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    
+}
+
+#end a {
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    
+}
+
+#footer-nav li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#footer-nav a {
+    color:white;
+    text-decoration: none; /* remove the underlines */
+    border-bottom:1px solid transparent;
+}
+
 /* Typography */
 header h1 {
     text-align: center;
@@ -112,6 +149,11 @@ footer p {
 
 h3, h4 {
     color: darkred;
+}
+
+h5 {
+    font-size: large;
+    color: black;
 }
 
 /* Larger Screens */
@@ -166,6 +208,26 @@ h3, h4 {
     #category {
         width: 70%;
         margin-left: 30%;
+    }
+
+    #end {
+        margin: auto;
+    }
+
+    #end h5{
+      color: black;
+    }
+
+    #footer-nav ul{
+        text-align: right;
+        font-size: smaller;
+    }
+
+    #footer-nav li {
+        border-bottom: none;
+        padding: 5px;
+        display: inline;
+        text-align: right;
     }
 
 }
