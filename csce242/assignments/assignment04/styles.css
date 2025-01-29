@@ -15,20 +15,19 @@ body {
     color: white;
 }
 
+
+
 .two {
     border-top: 1px solid gray;
 }
 
-.news {
-    padding: 5px;
-}
 .main-img {
     text-align: center;
 }
 
 .style {
-    padding: 10px;
-    margin: 30px;
+    padding: 5px;
+    margin: 20px;
     border: 1px solid transparent;
     display: flex;
     flex: 1;
@@ -36,6 +35,18 @@ body {
 
 .idea-img {
     padding: 5px;
+}
+
+.style2 {
+    border-bottom: 1px solid gray;
+    margin: 20px;
+    display: flex;
+    flex: 1;
+}
+
+#category {
+    padding: 5px;
+    margin: 20px;
 }
 
 /*Navigation */
@@ -79,7 +90,16 @@ body {
     text-decoration: none;
 }
 
+#category ul {
+    padding-left: 0;
+}
 
+#category li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    display: inline;
+}
 
 /* Typography */
 header h1 {
@@ -88,6 +108,10 @@ header h1 {
 
 footer p {
     text-align: center;
+}
+
+h3, h4 {
+    color: darkred;
 }
 
 /* Larger Screens */
@@ -133,9 +157,15 @@ footer p {
         
     }
 
-    #columns {
-        flex-wrap: wrap;
+    .style2 {
+        width: 70%;
+        margin-left: 30%;
+        border-bottom: 1px solid gray;
     }
-    
-    
+
+    #category {
+        width: 70%;
+        margin-left: 30%;
+    }
+
 }
