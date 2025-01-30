@@ -34,10 +34,6 @@ a {
 }
 
 @media (min-width: 900px) {
-    body {
-        background-color: darkgrey;
-    }
-
     .blocks {
         display: flex;
         flex-wrap: wrap;
@@ -45,6 +41,9 @@ a {
     }
     
     .style {
-        flex: 1;
+        width: 27%;
+        text-align: center;
+        padding:5px;
+        margin: 30px;
     }
 }
