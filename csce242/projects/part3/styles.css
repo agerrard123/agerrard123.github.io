@@ -8,13 +8,18 @@
     --nav-background-color: darkgray;
 }
 
-#main-header {
+#main-header, #main-footer {
     background: var(--header-footer-background-color);
 }
 
 body {
     background:var(--main-background-color);
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    text-align: center;
+    padding: 10px;
 }
 
 #content {
