@@ -6,6 +6,7 @@
     --nav-color: black;
     --nav-hover-color: gray;
     --nav-background-color: darkgray;
+    --wine-block-background-color: darkgray;
 }
 
 #main-header, #main-footer {
@@ -29,6 +30,14 @@ body {
     padding: 5px;
     border: 1px solid black;
     border-radius:10px;
+}
+
+.style {
+    background:var(--wine-block-background-color);
+    text-align: center;
+    padding:5px;
+    margin: 30px;
+    border: 1px solid black;
 }
 
 /*Navigation */
@@ -67,5 +76,18 @@ footer p {
     #main-nav li{
         flex: 1;
         margin: auto;
+    }
+
+    .blocks {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+    .style {
+        width: 27%;
+        text-align: center;
+        padding:5px;
+        margin: 30px;
     }
 }
