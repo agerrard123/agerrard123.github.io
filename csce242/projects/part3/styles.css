@@ -40,6 +40,10 @@ body {
     border: 1px solid black;
 }
 
+.picture {
+    text-align: center;
+}
+
 /*Navigation */
 #main-nav ul {
     padding-left: 0;
@@ -90,4 +94,5 @@ footer p {
         padding:5px;
         margin: 30px;
     }
+
 }
