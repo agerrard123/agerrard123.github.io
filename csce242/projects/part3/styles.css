@@ -44,6 +44,10 @@ body {
     text-align: center;
 }
 
+.tasting-notes {
+    text-align: center;
+}
+
 /*Navigation */
 #main-nav ul {
     padding-left: 0;
