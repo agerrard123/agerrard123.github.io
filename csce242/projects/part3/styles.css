@@ -77,7 +77,7 @@ footer p {
 
 /* Larger Resolutions */
 @media (min-width: 900px) {
-    #main-nav ul {
+    #main-nav ul, .blocks {
         display: flex;
     }
 
@@ -87,7 +87,6 @@ footer p {
     }
 
     .blocks {
-        display: flex;
         flex-wrap: wrap;
         margin: 10px;
     }
