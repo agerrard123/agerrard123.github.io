@@ -79,11 +79,12 @@ footer p {
 @media (min-width: 900px) {
     #main-nav ul, .blocks {
         display: flex;
+        text-align: center;
     }
 
     #main-nav li{
         flex: 1;
-        margin: auto;
+        border-right: 1px solid black;
     }
 
     .blocks {
