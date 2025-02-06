@@ -54,6 +54,12 @@ body {
     padding: 5px;
 }
 
+.column {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    background: var(--wine-block-background-color);
+}
+
 /*Navigation */
 #main-nav ul {
     padding-left: 0;
@@ -101,6 +107,10 @@ body {
     }
 
     .tasting-notes {
+        display: flex;
+    }
+
+    .column {
         display: flex;
     }
 
