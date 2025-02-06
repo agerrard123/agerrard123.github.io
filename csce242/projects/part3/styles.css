@@ -11,6 +11,7 @@
 
 #main-header, #main-footer {
     background: var(--header-footer-background-color);
+    text-align: center;
 }
 
 body {
@@ -48,6 +49,11 @@ body {
     text-align: center;
 }
 
+.bottle-img {
+    text-align: center;
+    padding: 5px;
+}
+
 /*Navigation */
 #main-nav ul {
     padding-left: 0;
@@ -68,11 +74,6 @@ body {
 
 #main-nav a:hover {
     color:var(--nav-hover-color);
-}
-
-/* Typography */
-footer p {
-    text-align: center;
 }
 
 /* Larger Resolutions */
@@ -97,6 +98,10 @@ footer p {
         text-align: center;
         padding:5px;
         margin: 30px;
+    }
+
+    .tasting-notes {
+        display: flex;
     }
 
 }
