@@ -21,6 +21,10 @@ h3 {
     color: darkblue;
 }
 
+#col2of3 {
+    text-align: center;
+}
+
 /* building the star from https://www.coding-dude.com/wp/css/css-star/ */
 .five-pointed-star {
     --star-color:black;
