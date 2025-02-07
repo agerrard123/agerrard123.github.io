@@ -1,6 +1,5 @@
-//print "Say Hello" when button (col1of3) is clicked
-const doStuff = () => {
-    console.log("doing stuff");
+//print "Say Hello" when button is clicked
+document.getElementById("col1of3").onclick = () => {
+    console.log("WOW!");
+    document.getElementById("print-hello").innerHTML="hello";
 }
-
-document.getElementById("btn-click-me").onclick = doStuff;
