@@ -25,11 +25,21 @@ h3 {
     text-align: center;
 }
 
+#col3of3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: larger;
+    color: darkblue;
+}
+
 /* building the star from https://www.coding-dude.com/wp/css/css-star/ */
 .five-pointed-star {
     --star-color:black;
     margin:1em auto;
-    font-size:3em;
+    font-size:4em;
     position: relative;
     display: block;
     width: 0px;
@@ -70,18 +80,18 @@ h3 {
 #col1of3, #col2of3, #col3of3 {
     background-color: plum;
     border: 1px solid darkblue;
-    padding: 5px;
+    padding: 10px;
 
     
 }
 
-@media (min-width: 800px) {
+@media (min-width: 780px) {
     .flex-container {
         display: flex;
     }
 
     #col1of3, #col2of3, #col3of3 {
         flex: 1;
-        margin: 20px;
+        margin: 30px;
     }
 }
