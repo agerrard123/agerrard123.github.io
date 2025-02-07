@@ -21,7 +21,7 @@ h3 {
     background-color: plum;
     border: 1px solid darkblue;
     padding: 5px;
-    margin: 20px;
+
     text-align: center;
 }
 
@@ -32,5 +32,6 @@ h3 {
 
     #col1of3, #col2of3, #col3of3 {
         flex: 1;
+        margin: 20px;
     }
 }
