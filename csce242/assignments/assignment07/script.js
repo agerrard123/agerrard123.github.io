@@ -6,5 +6,5 @@ document.getElementById("col1of3").onclick = () => {
 
 //change color when button is clicked
 document.getElementById("color-pick").onclick = () => {
-    console.log("WOW!");
+    const color = document.getElementById("color-pick");
 }
