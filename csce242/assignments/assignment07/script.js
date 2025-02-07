@@ -5,7 +5,3 @@ document.getElementById("col1of3").onclick = () => {
 }
 
 //change color when button is clicked
-document.getElementById("color-pick").onclick = () => {
-    document.getElementById("five-pointed-star").setAttribute("fill", "color-pick")
-}
-
