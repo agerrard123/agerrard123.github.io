@@ -7,6 +7,8 @@
     --nav-hover-color: gray;
     --nav-background-color: darkgray;
     --wine-block-background-color: darkgray;
+    --cellar-slot-nav-background-color: gray;
+    --cellar-slot-backgoround-color: lightgray;
 }
 
 #main-header, #main-footer {
@@ -58,6 +60,26 @@ body {
     border: 1px solid black;
     margin-bottom: 15px;
     background: var(--wine-block-background-color);
+}
+
+.slot-nav {
+    background:var(--cellar-slot-nav-background-color);
+    text-align: center;
+    border: 1px solid black;
+    width: 15%;
+    text-align: center;
+    padding:5px;
+    display: inline-block;
+}
+
+.slot {
+    background:var(--cellar-slot-backgoround-color);
+    text-align: center;
+    border: 1px solid black;
+    width: 15%;
+    text-align: center;
+    padding:5px;
+    display: inline-block;
 }
 
 /*Navigation */
