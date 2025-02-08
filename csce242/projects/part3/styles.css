@@ -62,11 +62,16 @@ body {
     background: var(--wine-block-background-color);
 }
 
+.rows {
+    text-align: center;
+}
+
 .slot-nav {
     background:var(--cellar-slot-nav-background-color);
     text-align: center;
     border: 1px solid black;
     width: 15%;
+    height: 100px;
     text-align: center;
     padding:5px;
     display: inline-block;
@@ -77,6 +82,7 @@ body {
     text-align: center;
     border: 1px solid black;
     width: 15%;
+    height: 100px;
     text-align: center;
     padding:5px;
     display: inline-block;
