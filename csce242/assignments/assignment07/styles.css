@@ -52,7 +52,7 @@ footer {
     border-left:   .3em solid transparent;
   
     /* Controlls the size of the stars. */
-    font-size: 24px;
+    font-size: 56px;
     
     &:before, &:after {
       content: '';

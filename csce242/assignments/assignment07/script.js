@@ -10,5 +10,4 @@ const star = document.querySelector('.star');
 
 colorPicker.addEventListener('input', (event) => {
     star.style.borderBottomColor = event.target.value;
-    star.style.borderColor = event.target.value;
 });
