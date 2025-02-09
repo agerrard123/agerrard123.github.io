@@ -1,28 +1,32 @@
 :root {
     --star-fill-color: black;
+    --some-text-color: darkblue;
+    --column-background-color: plum;
+    --main-body-background: lightcyan;
+    --h2-color: olive;
 }
 
 #main-body {
-    background:lightcyan;
+    background:var(--main-body-background);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--some-text-color);
     text-align: center;
 }
 
 h2 {
-    color: olive;
+    color: var(--h2-color);
     text-align: center;
 }
 
 h3 {
-    color:darkblue;
+    color:var(--some-text-color);
     text-align: center;
 }
 
 #print-hello {
-    color: darkblue;
+    color: var(--some-text-color);
 }
 
 #col2of3 {
@@ -36,7 +40,7 @@ h3 {
 footer {
     text-align: center;
     font-size: larger;
-    color: darkblue;
+    color: var(--some-text-color);
 }
 
 /* building the star from https://codepen.io/br646/pen/YzwXEqY */
@@ -83,8 +87,8 @@ footer {
 
 /*columns*/
 #col1of3, #col2of3, #col3of3 {
-    background-color: plum;
-    border: 1px solid darkblue;
+    background-color: var(--column-background-color);
+    border: 1px solid var(--some-text-color);
     padding: 10px;
 
     
