@@ -12,5 +12,5 @@ document.getElementById("color-pick").addEventListener('input', function(event) 
 
 //change image when it is clicked
 document.getElementById("image").onclick = () => {
-    document.getElementById("image").src = "images/anImage.jpg";
+    document.getElementById("image").src = "image/anImage.jpg";
 };
