@@ -5,9 +5,12 @@ document.getElementById("col1of3").onclick = () => {
 };
 
 //change color when button is clicked
-const colorPicker = document.getElementById('color-pick');
-const star = document.querySelector('.star');
-
-colorPicker.addEventListener('input', (event) => {
-    star.style.borderBottomColor = event.target.value;
+document.getElementById("color-pick").addEventListener('input', function(event) {
+    const selectedColor = event.target.value;
+    document.body.style.setProperty('--star-fill-color', selectedColor);
 });
+
+//change image when it is clicked
+document.getElementById("image").onclick = () => {
+    document.getElementById("image").src = "images/anImage.jpg";
+};
