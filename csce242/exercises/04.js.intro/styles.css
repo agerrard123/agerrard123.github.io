@@ -80,6 +80,10 @@ main {
     display:none;
 }
 
+.hide-small {
+    display:none;
+}
+
 /* Animations */
 #animation-fun {
     background:#a0ccd8;
@@ -127,6 +131,12 @@ main {
 }
 
 /* Navigation */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color: var(--gallery-color);
+    margin: 6px 0;
+}
 #sub-nav {
     position:absolute;
     top:0;
@@ -176,6 +186,9 @@ footer p {
 
 /* Larger screens */
 @media only screen and (min-width: 768px) { 
+    #toggle-nav {
+        display: none;
+    }
     .columns {
         display:flex;
     }
@@ -217,5 +230,9 @@ footer p {
         position:absolute;
         padding:5px;
         bottom:0;
+    }
+
+    .hide-small {
+        display:flex;
     }
 } 

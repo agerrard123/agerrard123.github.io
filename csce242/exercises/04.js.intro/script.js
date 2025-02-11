@@ -10,7 +10,7 @@ document.getElementById("btn-color").onclick = () => {
     messageP.innerHTML = "Good bye";
     messageP.classList.toggle("sad");
 
-}
+};
 
 //happy script
 document.getElementById("btn-happy").onclick = () => {
@@ -37,4 +37,9 @@ document.getElementById("txt-emotion").onkeyup = (event) => {
     //const emotion = document.getElementById("txt-emotion").value;
     document.getElementById("emotional-message").innerHTML = 
     "You are feeling " + event.currentTarget.value;
-}
+};
+
+//toggleling the nav
+document.getElementById("toggle-nav").onclick = () => {
+    document.getElementById("nav-items").classList.toggle("hide-small");
+};
