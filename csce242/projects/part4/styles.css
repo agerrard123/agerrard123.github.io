@@ -1,23 +1,24 @@
 /* Structure */
 :root {
-    --main-background-color: white;
-    --header-footer-background-color: lightgray;
-    --header-footer-color: black;
+    --main-background-color: rgb(195, 216, 169);
+    --header-footer-color: purple;
     --nav-color: black;
     --nav-hover-color: gray;
     --nav-background-color: darkgray;
-    --wine-block-background-color: darkgray;
+    --wine-block-background-color: rgb(185, 114, 185);
     --cellar-slot-nav-background-color: gray;
     --cellar-slot-backgoround-color: lightgray;
+    --border-color: rgb(187, 123, 4);
+    --border-block-color: purple;
 }
 
 #main-header, #main-footer {
-    background: var(--header-footer-background-color);
+    color: var(--header-footer-color);
     text-align: center;
 }
 
 body {
-    background:var(--main-background-color);
+    background: url(images/vineyard-field.jpg);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,7 +32,7 @@ body {
     width:80%;
     margin:auto; /* center */
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     border-radius:10px;
 }
 
@@ -40,7 +41,7 @@ body {
     text-align: center;
     padding:5px;
     margin: 30px;
-    border: 1px solid black;
+    border: 2px solid var(--border-block-color);
 }
 
 .picture {
@@ -57,7 +58,7 @@ body {
 }
 
 .column {
-    border: 1px solid black;
+    border: 2px solid var(--border-block-color);
     margin-bottom: 15px;
     background: var(--wine-block-background-color);
 }
@@ -69,7 +70,7 @@ body {
 .slot-nav {
     background:var(--cellar-slot-nav-background-color);
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--border-block-color);
     width: 15%;
     height: 100px;
     text-align: center;
@@ -80,7 +81,7 @@ body {
 .slot {
     background:var(--cellar-slot-backgoround-color);
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid var(--border-block-color);
     width: 15%;
     height: 100px;
     text-align: center;
@@ -97,7 +98,7 @@ body {
     list-style-type: none; /*remove the bullets */
     padding: 5px;
     background:var(--nav-background-color);
-    border-bottom: 1px solid dimgray;
+    border-bottom: 1px solid var(--border-color);
 }
 
 #main-nav a {
@@ -119,7 +120,7 @@ body {
 
     #main-nav li{
         flex: 1;
-        border-right: 1px solid black;
+        border-right: 1px solid var(--border-color);
     }
 
     .blocks {
