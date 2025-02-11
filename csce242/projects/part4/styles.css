@@ -3,7 +3,7 @@
     --main-background-color: rgba(255, 255, 255, .7);
     --header-footer-color: rgb(88, 47, 14);
     --nav-color: white;
-    --nav-hover-color: rgb(51, 61, 41);
+    --nav-hover-color: rgb(127, 79, 36);
     --nav-background-color:#451C01;
     --wine-block-background-color: #9E7A48;
     --cellar-slot-nav-background-color: rgb(166, 138, 100);
@@ -44,7 +44,6 @@ body {
     border-radius: 5px;
     padding-top: 50px;
     color:#100C10;
-    /*border: 2px solid var(--border-block-color);*/
 }
 
 .picture {
@@ -61,7 +60,7 @@ body {
 }
 
 .column {
-    border: 2px solid var(--border-block-color);
+    border-radius: 5px;
     margin-bottom: 15px;
     background: var(--wine-block-background-color);
     text-align: center;
@@ -136,11 +135,13 @@ body {
     position:absolute;
     margin:0;
     bottom:4px;
-    left:5%;
+    left:0%;
     text-align:left;
     background:rgba(0,0,0, 0.8);
     color:white;
     padding:10px 20px;
+    display: none;
+    max-width: 50%;
 }
 
 /* Larger Resolutions */
@@ -158,6 +159,14 @@ body {
         flex: 1;
         border-right: 1px solid var(--border-color);
         border-left: 1px solid var(--border-color);
+    }
+
+    #img-div-header {
+        position: absolute;
+        left: 3.1%;
+        max-height: auto;
+        max-width: 100%;
+        display: block;
     }
 
     .blocks {
