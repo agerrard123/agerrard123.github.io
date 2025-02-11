@@ -6,8 +6,8 @@
     --nav-hover-color: rgb(51, 61, 41);
     --nav-background-color: rgb(164, 172, 134);
     --wine-block-background-color: rgb(166, 138, 100);
-    --cellar-slot-nav-background-color: gray;
-    --cellar-slot-backgoround-color: lightgray;
+    --cellar-slot-nav-background-color: rgb(166, 138, 100);
+    --cellar-slot-backgoround-color: rgb(182, 173, 144);
     --border-color: rgb(127, 79, 36);
     --border-block-color: rgb(127, 79, 36);
 }
@@ -71,7 +71,7 @@ body {
 .slot-nav {
     background:var(--cellar-slot-nav-background-color);
     text-align: center;
-    border: 1px solid var(--border-block-color);
+    border: 2px solid var(--border-block-color);
     width: 15%;
     height: 100px;
     text-align: center;
@@ -82,7 +82,7 @@ body {
 .slot {
     background:var(--cellar-slot-backgoround-color);
     text-align: center;
-    border: 1px solid var(--border-block-color);
+    border: 2px solid var(--border-block-color);
     width: 15%;
     height: 100px;
     text-align: center;
@@ -146,5 +146,4 @@ body {
         display: flex;
         text-align: left;
     }
-
 }
