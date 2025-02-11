@@ -91,6 +91,13 @@ body {
 }
 
 /*Navigation */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color: var(--border-color);
+    margin: 6px 0;
+}
+
 #main-nav ul {
     padding-left: 0;
 }
@@ -120,6 +127,10 @@ body {
 
 /* Larger Resolutions */
 @media (min-width: 900px) {
+    #toggle-nav {
+        display: none;
+    }
+
     #main-nav ul, .blocks {
         display: flex;
         text-align: center;
@@ -150,5 +161,9 @@ body {
     .column {
         display: flex;
         text-align: left;
+    }
+
+    .hide-small {
+        display:flex;
     }
 }
