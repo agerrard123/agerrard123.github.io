@@ -36,6 +36,22 @@ body {
     border-radius:10px;
 }
 
+#wine-form {
+    text-align: center;
+}
+
+#add-wine-form {
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    background: var(--nav-background-color);
+    color: var(--nav-color);
+}
+
+#add-wine-form:hover {
+    color: var(--nav-hover-color);
+}
+
 .style {
     background:var(--wine-block-background-color);
     text-align: center;
