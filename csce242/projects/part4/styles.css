@@ -1,15 +1,15 @@
 /* Structure */
 :root {
-    --main-background-color: rgb(195, 216, 169);
-    --header-footer-color: purple;
-    --nav-color: black;
-    --nav-hover-color: gray;
-    --nav-background-color: darkgray;
-    --wine-block-background-color: rgb(185, 114, 185);
+    --main-background-color: rgb(194, 197, 170);
+    --header-footer-color: rgb(88, 47, 14);
+    --nav-color: rgb(88, 47, 14);
+    --nav-hover-color: rgb(51, 61, 41);
+    --nav-background-color: rgb(164, 172, 134);
+    --wine-block-background-color: rgb(166, 138, 100);
     --cellar-slot-nav-background-color: gray;
     --cellar-slot-backgoround-color: lightgray;
-    --border-color: rgb(187, 123, 4);
-    --border-block-color: purple;
+    --border-color: rgb(127, 79, 36);
+    --border-block-color: rgb(127, 79, 36);
 }
 
 #main-header, #main-footer {
@@ -32,7 +32,7 @@ body {
     width:80%;
     margin:auto; /* center */
     padding: 5px;
-    border: 1px solid var(--border-color);
+    border: 2px solid var(--border-color);
     border-radius:10px;
 }
 
@@ -61,6 +61,7 @@ body {
     border: 2px solid var(--border-block-color);
     margin-bottom: 15px;
     background: var(--wine-block-background-color);
+    text-align: center;
 }
 
 .rows {
@@ -99,6 +100,7 @@ body {
     padding: 5px;
     background:var(--nav-background-color);
     border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
 }
 
 #main-nav a {
@@ -121,6 +123,7 @@ body {
     #main-nav li{
         flex: 1;
         border-right: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
     }
 
     .blocks {
@@ -141,6 +144,7 @@ body {
 
     .column {
         display: flex;
+        text-align: left;
     }
 
 }
