@@ -33,7 +33,7 @@ p {
     margin: auto;
 }
 
-#exercise1 {
+#exercise1, #exercise2 {
     margin: auto;
     border: 1px solid blue;
     background: dimgray;
@@ -45,6 +45,11 @@ p {
     width: 120px;
     margin: auto;
     padding: 1px;
+}
+
+#exercise2 h3 {
+    text-align: center;
+    color: lightpink;
 }
 
 .hidden {
@@ -65,25 +70,25 @@ footer p{
     background-color: lightskyblue;
     text-align: left;
 }
-#toggle-nav div {
+#toggle-nav-ex1 div, #toggle-nav-ex2 div {
     width:25px;
     height:2px;
     background-color: blue;
     margin: 6px 0;
 }
 
-#nav-items {
+#nav-items-ex1, #nav-items-ex2 {
     margin-top: 20px;
 }
 
-#nav-items p{
+#nav-items-ex1 p, #nav-items-ex2 p{
     margin: 1px;
     color: blue;
 }
 
 
 @media (min-width: 862px) {
-    #toggle-nav {
+    #toggle-nav-ex1, #toggle-nav-ex2 {
         display: none;
     }
 
