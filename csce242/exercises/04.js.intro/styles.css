@@ -3,6 +3,7 @@
     --main-background-color:#CDECEF;
     --primary-color:#2B91AD;
     --gallery-color:#FFB58A;
+    --circle-color:black;
 }
 
 body {
@@ -92,13 +93,21 @@ main {
     position:relative;
 }
 
-#ball {
+#ball-area {
+    position: relative;
+    height: 200px;
+}
+
+#ball, #circle {
     height: 30px;
     width:30px;
-    background:blue;
+    background:var(--circle-color);
     border-radius:50px;
-    animation-name: fun;
     position:relative;
+}
+
+#ball {
+    animation-name: fun;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
