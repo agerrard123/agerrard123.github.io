@@ -5,7 +5,7 @@ document.getElementById("toggle-nav").onclick = () => {
 
 //changing mode of transportation
 document.getElementById("txt-transportation").onkeyup = () => {
-    const transportation = document.getElementById("txt-transportation").value;
+    const transportation = document.getElementById("txt-transportation").value.toLowerCase().trim();
     document.getElementById("img-transportation").src = "";
 
     if(transportation == "bike") {
