@@ -83,3 +83,30 @@ document.getElementById("btn-pick-color").onchange = () => {
     //document.getElementById("circle").style.setProperty("background", color);
     document.getElementById("circle").style.setProperty("--circle-color", color);
 }
+
+//Donations Thermometer
+const GOAL = 1000;
+let donations = 0;
+
+document.getElementById("goal-display").innerHTML = `Goal $${GOAL}`;
+
+//when add clicked if donation is negative display the error
+//otherwise update the donations and display in console
+document.getElementById("btn-add-donation").onclick = () => {
+    const donation = document.getElementById("txt-donation").value;
+    document.getElementById("donation-error").classList.add("hidden");
+    if(isNaN(donation) || donation <=0 ) {
+        document.getElementById("donation-error").classList.remove("hidden");
+        return;
+    }
+
+}
+//update donation
+donations += donation;
+donationPercent = donations / GOAL * 100;
+
+//show donation message
+document.getElementById("donation-message").innerHTML = `$${GOAL - donations} to go!`;
+
+//update thermometer
+document.getElementById("thermometer").style.setProperty("--donation-percent", donationPercent + "%");
