@@ -27,7 +27,7 @@ p {
     color: white;
 }
 
-#container {
+#container1 {
     
     text-align: center;
     margin: auto;
@@ -45,6 +45,10 @@ p {
     width: 120px;
     margin: auto;
     padding: 1px;
+}
+
+.display-ex2 {
+    display:none;
 }
 
 footer p{
