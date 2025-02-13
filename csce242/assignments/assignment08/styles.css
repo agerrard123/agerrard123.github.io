@@ -1,3 +1,7 @@
+:root {
+    --heart-fill-color: white;
+}
+
 body {
     background: lightskyblue;
 }
@@ -70,7 +74,7 @@ p {
     top: 0;
     width: 50px;
     height: 80px;
-    background: #fc2e5a;
+    background: var(--heart-fill-color);
     -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     -webkit-transform: rotate(-45deg);
@@ -96,6 +100,10 @@ p {
         -ms-transform-origin: 100% 100%;
          -o-transform-origin: 100% 100%;
             transform-origin :100% 100%;
+}
+
+.red {
+    background: red;
 }
 
 .hidden {

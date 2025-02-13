@@ -40,3 +40,18 @@ document.getElementById("txt-transportation").onkeyup = () => {
         document.getElementById("img-transportation").src = "images/skateboard.jpeg";
     }
 };
+
+//changing color of heart
+document.getElementById("buttons").onclick = () => {
+    const color = document.getElementById("--heart-fill-color");
+    if(document.getElementById("red-button").onclick()) {
+        heart.classList.add("red");
+        document.getElementById("heart").style.setProperty("--heart-fill-color", color);
+    }
+    else if(document.getElementById("green-button").onclick()) {
+
+    }
+    else if(document.getElementById("blue-button").onclick()) {
+
+    }
+}
