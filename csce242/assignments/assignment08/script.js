@@ -42,16 +42,17 @@ document.getElementById("txt-transportation").onkeyup = () => {
 };
 
 //changing color of heart
+const redButton = document.getElementById("red-button");
+const greenButton = document.getElementById("green-button");
+const blueButton = document.getElementById("blue-button");
 document.getElementById("buttons").onclick = () => {
-    const color = document.getElementById("--heart-fill-color");
-    if(document.getElementById("red-button").onclick()) {
-        heart.classList.add("red");
-        document.getElementById("heart").style.setProperty("--heart-fill-color", color);
+    if(redButton) {
+        console.log("red");
     }
-    else if(document.getElementById("green-button").onclick()) {
-
+    else if(greenButton) {
+        console.log("green");
     }
-    else if(document.getElementById("blue-button").onclick()) {
-
+    else if(blueButton) {
+        console.log("blue");
     }
 }

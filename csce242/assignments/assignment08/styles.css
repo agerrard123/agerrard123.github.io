@@ -106,6 +106,14 @@ p {
     background: red;
 }
 
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
 .hidden {
     display:none;
 }
