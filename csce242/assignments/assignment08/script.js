@@ -76,6 +76,6 @@ const changeHeartColor = (event) => {
         document.documentElement.style.setProperty('--heart-fill-color', 'blue');
     }
 }
-redButton.addEventListener("click", changeHeartColor)
-greenButton.addEventListener("click", changeHeartColor)
-blueButton.addEventListener("click", changeHeartColor)
+redButton.addEventListener("click", changeHeartColor);
+greenButton.addEventListener("click", changeHeartColor);
+blueButton.addEventListener("click", changeHeartColor);
