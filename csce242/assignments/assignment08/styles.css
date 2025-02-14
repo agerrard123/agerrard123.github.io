@@ -6,6 +6,7 @@
     --exercise-background: dimgray;
     --heart-fill-color: white;
     --img-color: lightskyblue;
+    --arrow-color: black;
 }
 
 body {
@@ -108,18 +109,6 @@ p {
             transform-origin :100% 100%;
 }
 
-.red {
-    background: red;
-}
-
-.blue {
-    background: blue;
-}
-
-.green {
-    background: green;
-}
-
 .hidden {
     display:none;
 }
@@ -138,13 +127,14 @@ footer p{
     background-color: var(--img-color);
     text-align: left;
 }
-#toggle-nav-ex1 div, #toggle-nav-ex2 div {
-    width:25px;
-    height:2px;
-    background-color: var(--h1-color);
-    margin: 6px 0;
+#toggle-nav-ex1, #toggle-nav-ex2 {
+    font-size: 20px;
 }
 
+#toggle-nav-ex1 p, #toggle-nav-ex2 p {
+    color: var(--arrow-color);
+    margin-bottom: 0;
+}
 #nav-items-ex1, #nav-items-ex2 {
     margin-top: 20px;
 }
@@ -152,8 +142,8 @@ footer p{
 #nav-items-ex1 p, #nav-items-ex2 p{
     margin: 1px;
     color: var(--h1-color);
+    cursor: pointer;
 }
-
 
 @media (min-width: 862px) {
     #toggle-nav-ex1, #toggle-nav-ex2 {
@@ -162,5 +152,16 @@ footer p{
 
     .hide-small {
         display:flex;
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-items p:not(:last-child)::after{
+        content: " | ";
+        padding-right: 5px; 
+        
     }
 }

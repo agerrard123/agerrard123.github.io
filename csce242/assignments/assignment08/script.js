@@ -1,12 +1,31 @@
 //toggleling the nav for ex1
 document.getElementById("toggle-nav-ex1").onclick = () => {
     document.getElementById("nav-items-ex1").classList.toggle("hide-small");
+    if(document.querySelector(".arrow-down").style.display == "none") {
+        document.querySelector(".arrow-up").style.display="none";
+        document.querySelector(".arrow-down").style.display="block";
+    }
+    else if(document.querySelector(".arrow-up").style.display == "none") {
+        document.querySelector(".arrow-up").style.display="block";
+        document.querySelector(".arrow-down").style.display="none";
+
+    }
 };
 
 //toggleling the nav for ex2
 document.getElementById("toggle-nav-ex2").onclick = () => {
     document.getElementById("nav-items-ex2").classList.toggle("hide-small");
+    if(document.querySelector(".arrow-down-2").style.display == "none") {
+        document.querySelector(".arrow-up-2").style.display="none";
+        document.querySelector(".arrow-down-2").style.display="block";
+    }
+    else if(document.querySelector(".arrow-up-2").style.display == "none") {
+        document.querySelector(".arrow-up-2").style.display="block";
+        document.querySelector(".arrow-down-2").style.display="none";
+
+    }
 };
+
 
 //clicking exercise 2
 document.getElementById("ex2-item").onclick = () => {
@@ -45,14 +64,18 @@ document.getElementById("txt-transportation").onkeyup = () => {
 const redButton = document.getElementById("red-button");
 const greenButton = document.getElementById("green-button");
 const blueButton = document.getElementById("blue-button");
-document.getElementById("buttons").onclick = () => {
-    if(redButton) {
-        console.log("red");
+const changeHeartColor = (event) => {
+    let color = event.target.textContent.toLowerCase();
+    if(color == "red") {
+        document.documentElement.style.setProperty('--heart-fill-color', 'red');
     }
-    else if(greenButton) {
-        console.log("green");
+    else if(color == "green") {
+        document.documentElement.style.setProperty('--heart-fill-color', 'green');
     }
-    else if(blueButton) {
-        console.log("blue");
+    else if(color == "blue") {
+        document.documentElement.style.setProperty('--heart-fill-color', 'blue');
     }
 }
+redButton.addEventListener("click", changeHeartColor)
+greenButton.addEventListener("click", changeHeartColor)
+blueButton.addEventListener("click", changeHeartColor)
