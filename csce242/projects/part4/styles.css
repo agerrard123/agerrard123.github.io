@@ -65,6 +65,10 @@ body {
     background: url(images/corks.jpg);
 }
 
+#reviews-ratings-background {
+    background: url(images/vineyard-field.jpg);
+}
+
 .style {
     background:var(--wine-block-background-color);
     text-align: center;
