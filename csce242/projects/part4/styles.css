@@ -37,6 +37,10 @@ body {
     border-radius:10px;
 }
 
+#wines-div {
+    margin: auto;
+}
+
 #wine-form {
     text-align: center;
 }
@@ -208,15 +212,13 @@ body {
 
     .blocks {
         flex-wrap: wrap;
-        margin: 10px;
     }
 
     .style {
-        width: 27%;
+        width: 25%;
         text-align: center;
         padding:20px 10px;
-        margin: 30px;
-
+        margin: 35px;
     }
 
     .tasting-notes {
