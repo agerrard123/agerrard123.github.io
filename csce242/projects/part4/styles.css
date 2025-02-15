@@ -15,7 +15,7 @@
 #main-header, #main-footer {
     color: var(--header-footer-color);
     text-align: center;
-    font-size: large;
+    
 }
 
 body {
@@ -37,6 +37,7 @@ body {
     border-radius:10px;
 }
 
+
 #wine-form {
     text-align: center;
 }
@@ -55,6 +56,14 @@ body {
 
 #yourCellar-background {
     background: var(--cellar-slot-backgoround-color);
+}
+
+#map-background {
+    background: url(images/wooden-barrels.jpg);
+}
+
+#wine-history-background {
+    background: url(images/corks.jpg);
 }
 
 .style {
