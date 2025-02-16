@@ -41,15 +41,14 @@ body {
     text-align: center;
 }
 
-#add-wine-form {
-    margin-top: 30px;
+#add-wine-form, #remove-wine {
     text-align: center;
     padding: 5px;
     background: var(--nav-background-color);
     color: var(--nav-color);
 }
 
-#add-wine-form:hover {
+#add-wine-form:hover, #remove-wine:hover {
     color: var(--nav-hover-color);
 }
 
@@ -67,6 +66,10 @@ body {
 
 #reviews-ratings-background {
     background: url(images/vineyard-field.jpg);
+}
+
+#wine p {
+    text-align: left;
 }
 
 .style {
@@ -123,6 +126,7 @@ body {
     text-align: center;
     padding:5px;
     display: inline-block;
+    margin-top: 5px;
 }
 
 .hide-small {
@@ -166,6 +170,8 @@ body {
 
 #img-div {
     position:relative;
+    margin-bottom: 30px;
+
 }
 
 #img-div-header {
