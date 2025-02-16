@@ -73,10 +73,15 @@ body {
     text-align: left;
 }
 
+#news-articles-header {
+    text-align: center;
+    color: var(--header-footer-color);
+}
+
 #news-articles {
     border: 1px solid black;
     background: var(--news-background-color);
-    color: var(--nav-color);
+    color: var(--header-footer-color);
 }
 
 .style, .news-style {
