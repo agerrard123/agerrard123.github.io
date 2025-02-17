@@ -66,9 +66,7 @@ body {
     background: url(images/corks.jpg);
 }
 
-#reviews-ratings-background {
-    background: url(images/vineyard-field.jpg);
-}
+
 
 #wine p {
     text-align: left;
@@ -87,6 +85,10 @@ body {
 
 #reviews-background {
     background: var(--reviews-background-color);
+}
+
+#reviews-ratings-background {
+    background: var(--wine-block-background-color);
 }
 
 .style, .news-style {
@@ -231,6 +233,10 @@ body {
 
     #yourCellar-background {
         background: url(images/vertical-grapes.jpg);
+    }
+
+    #reviews-ratings-background {
+        background: url(images/vineyard-field.jpg);
     }
 
     .blocks {
