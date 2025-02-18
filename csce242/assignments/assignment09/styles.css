@@ -1,0 +1,53 @@
+:root {
+    --main-background: palevioletred;
+    --header-footer-color: purple;
+    --sub-header-color: blue;
+    --stair-border-color: white;
+}
+
+body {
+    background: var(--main-background);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+h1 {
+    color: var(--header-footer-color);
+}
+
+h2 {
+    color: var(--sub-header-color);
+}
+
+.rows {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 2px solid var(--stair-border-color);
+    border-right: 2px solid var(--stair-border-color);
+    max-width: 100px;
+    min-width: 100px;
+}
+
+#step {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    /* max-width: 100px;
+    min-width: 100px; */
+    
+}
+
+#climb-stairs {
+    font-size: smaller;
+    margin-top: 30px;
+}
+
+#new-button-area {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 15px;
+    color: var(--header-footer-color);
+}
