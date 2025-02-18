@@ -22,4 +22,9 @@ document.getElementById("btn-display").onclick = () => {
             favMessageP.innerHTML = `You clicked ${i}.`
         }
     }
+
+    //////////For Loop Assignment Start
+    document.getElementById("build-stairs").onclick = () => {
+        console.log("button clicked");
+    }
 }
