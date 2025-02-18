@@ -30,6 +30,10 @@ h2 {
     min-width: 100px;
 }
 
+#start-end-display {
+    position: relative;
+}
+
 #step {
     margin-bottom: 25px;
     margin-top: 25px;
@@ -38,7 +42,7 @@ h2 {
 #stick-person {
     position: absolute;
     z-index: 1;
-    left: 48%;
+    left: 23%;
 }
 
 #new-button-area {

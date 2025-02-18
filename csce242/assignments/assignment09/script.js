@@ -28,11 +28,23 @@ document.getElementById("draw-stairs").onclick = () => {
         displayArea2.append(climbButton);
     }
 
+
+    let count = 0;
+    const leftRight = ["images/left.png", "images/right.png"];
+    let imageIndex = 0;
     document.getElementById("climb-button").onclick = () => {
-        console.log("climb those stairs boy");
-        let count = 0;
-        setInterval(climb, 10);
-        
-        
+        const stop = setInterval(climb, 500);
+        function climb() {
+            if(count < 8) {
+                person.src = leftRight[imageIndex];
+                person.style.bottom = `${count*30}px`;
+                displayArea.append(person);
+                imageIndex = (imageIndex + 1) % leftRight.length;
+                count++;
+            }
+            else{
+                clearInterval(stop);
+            }
+        }
     }
 };
