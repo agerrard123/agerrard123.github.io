@@ -2,6 +2,8 @@ const displayArea = document.getElementById("start-end-display");
 const displayArea2 = document.getElementById("new-button-area");
 let stairsDrawn = false;
 document.getElementById("draw-stairs").onclick = () => {
+    displayArea.classList.remove("hidden");
+    displayArea.classList.add("rows");
     if(stairsDrawn) {
         return; //do nothing if the stairs have already been drawn
     }
