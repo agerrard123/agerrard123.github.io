@@ -23,8 +23,3 @@ document.getElementById("btn-display").onclick = () => {
         }
     }
 }
-
-    //////////For Loop Assignment Start
-    document.getElementById("build-stairs").onclick = () => {
-        console.log("button clicked");
-    }
