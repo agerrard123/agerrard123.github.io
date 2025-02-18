@@ -38,6 +38,7 @@ h2 {
 #stick-person {
     position: absolute;
     z-index: 1;
+    left: 48%;
 }
 
 #new-button-area {
