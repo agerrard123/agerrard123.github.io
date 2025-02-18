@@ -30,22 +30,9 @@ document.getElementById("draw-stairs").onclick = () => {
 
     document.getElementById("climb-button").onclick = () => {
         console.log("climb those stairs boy");
-        let height = 7;
-        const interval = setInterval(frame, 10);
-        function frame () {
-            for(let i = 7; i >= 1; i--) {
-                if(i == 2 || i == 4 || i == 6){
-                    person.src = "images/right.png";
-                    height--;
-                }
-                else if (i == 3 || i == 5 || i == 7) {
-                    person.src = "images/left.png";
-                    height--;
-                }
-                    
-                
-            }
-        }
+        let count = 0;
+        setInterval(climb, 10);
+        
         
     }
 };
