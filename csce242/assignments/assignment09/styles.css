@@ -33,14 +33,11 @@ h2 {
 #step {
     margin-bottom: 25px;
     margin-top: 25px;
-    /* max-width: 100px;
-    min-width: 100px; */
-    
 }
 
-#climb-stairs {
-    font-size: smaller;
-    margin-top: 30px;
+#stick-person {
+    position: absolute;
+    z-index: 1;
 }
 
 #new-button-area {

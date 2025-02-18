@@ -4,6 +4,9 @@ let stairsDrawn = false;
 document.getElementById("draw-stairs").onclick = () => {
     displayArea.classList.remove("hidden");
     displayArea.classList.add("rows");
+    const person = document.createElement("img");
+    person.id = "stick-person";
+    person.src = "images/left.png";
     if(stairsDrawn) {
         return; //do nothing if the stairs have already been drawn
     }
@@ -12,6 +15,9 @@ document.getElementById("draw-stairs").onclick = () => {
         const tread = document.createElement("hr");
         tread.id = "step";
         displayArea.append(tread);
+        if(i == 7) {
+            displayArea.append(person);
+        }
     }
     stairsDrawn = true;
 
@@ -24,5 +30,6 @@ document.getElementById("draw-stairs").onclick = () => {
 
     document.getElementById("climb-button").onclick = () => {
         console.log("climb those stairs boy");
+        
     }
 };
