@@ -32,9 +32,10 @@ document.getElementById("draw-stairs").onclick = () => {
     let count = 0;
     const leftRight = ["images/left.png", "images/right.png"];
     let imageIndex = 0;
+    let climb;
     document.getElementById("climb-button").onclick = () => {
-        const stop = setInterval(climb, 500);
-        function climb() {
+
+        climb = setInterval(() => {
             if(count < 8) {
                 person.src = leftRight[imageIndex];
                 person.style.bottom = `${count*30}px`;
@@ -43,8 +44,8 @@ document.getElementById("draw-stairs").onclick = () => {
                 count++;
             }
             else{
-                clearInterval(stop);
+                clearInterval(climb);
             }
-        }
+        },500);
     }
 };
