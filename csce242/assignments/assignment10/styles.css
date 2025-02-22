@@ -2,6 +2,7 @@
     --background-color: darkslategray;
     --main-header-color: lightskyblue;
     --sub-head-color: plum;
+    --popup-background-color: darkolivegreen;
 }
 
 body {
@@ -22,7 +23,8 @@ h2, #image-credit {
 }
 
 #popup {
-    background: darkmagenta;
+    background: var(--popup-background-color);
+    box-shadow: 10px 10px 5px var(--main-header-color);
     width: 400px;
     margin: auto;
 }
