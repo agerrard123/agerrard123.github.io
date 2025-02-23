@@ -23,20 +23,28 @@ h2, #image-credit {
 }
 
 #popup {
+    position: relative;
     background: var(--popup-background-color);
     box-shadow: 10px 10px 5px var(--main-header-color);
     width: 400px;
     margin: auto;
+    padding: 10px;
+    color: var(--main-header-color);
 }
 
 #close {
+    position: absolute;
     text-align: right;
+    cursor: pointer;
+    right: 10px;
+    color: var(--main-header-color);
 }
 
 .title {
     list-style-type: none;
     margin-top: 20px;
     color: var(--main-header-color);
+    cursor: pointer;
 }
 
 .hidden {

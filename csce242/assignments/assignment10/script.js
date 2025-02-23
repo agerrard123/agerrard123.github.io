@@ -20,14 +20,11 @@ for(let title in items) {
         popupTitle.innerHTML = title;
         popupImg.src = items[title];
         popup.classList.remove("hidden");
-        container.append(popup);
-        
+        container.insertAdjacentElement("afterend", popup);
     };
     section.append(container);
-    
-    closeBtn.onclick = () => {
-        popup.classList.add("hidden");
-    };
-    
 };
 
+closeBtn.onclick = () => {
+    popup.classList.add("hidden");
+};
