@@ -12,6 +12,7 @@
     --cellar-slot-backgoround-color: rgb(182, 173, 144);
     --border-color: rgb(127, 79, 36);
     --border-block-color: rgb(127, 79, 36);
+    --review-text-color: linen;
 }
 
 #main-header, #main-footer {
@@ -80,7 +81,7 @@ body {
 #news-articles {
     border: 1px solid black;
     background: var(--news-background-color);
-    color: var(--header-footer-color);
+    color: var(--review-text-color);
 }
 
 #reviews-background {
@@ -151,6 +152,10 @@ body {
 
 .hide-small {
     display:none;
+}
+
+#review-text {
+    color: var(--review-text-color);
 }
 
 /*Navigation */
