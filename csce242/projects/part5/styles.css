@@ -67,8 +67,6 @@ body {
     background: url(images/corks.jpg);
 }
 
-
-
 #wine p {
     text-align: left;
 }
@@ -123,31 +121,39 @@ body {
     padding: 5px;
 }
 
-.rows {
-    text-align: center;
-}
-
 .slot-nav {
-    background:var(--cellar-slot-nav-background-color);
-    text-align: center;
+    /* background:var(--cellar-slot-nav-background-color); */
+    /* text-align: center; */
     border: 2px solid var(--border-block-color);
-    width: 15%;
-    height: 100px;
-    text-align: center;
+    /* width: 15%;
+    height: 100px; */
+    /* text-align: center; */
     padding:5px;
-    display: inline-block;
+    display: grid;
 }
 
 .slot {
-    background:var(--cellar-slot-backgoround-color);
+    /* background:var(--cellar-slot-backgoround-color); */
     text-align: center;
     border: 2px solid var(--border-block-color);
     width: 15%;
     height: 100px;
     text-align: center;
     padding:5px;
-    display: inline-block;
+    display: grid;
     margin-top: 5px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.rows > div {
+    background:var(--cellar-slot-backgoround-color);
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    padding: 5px;
 }
 
 .hide-small {
