@@ -55,7 +55,7 @@ body {
     color: var(--nav-hover-color);
 }
 
-#yourCellar-background {
+#yourCellar-background, #reviews-ratings-background {
     background: var(--cellar-slot-backgoround-color);
 }
 
@@ -84,10 +84,6 @@ body {
 
 #reviews-background {
     background: var(--reviews-background-color);
-}
-
-#reviews-ratings-background {
-    background: var(--wine-block-background-color);
 }
 
 .style, .news-style {
