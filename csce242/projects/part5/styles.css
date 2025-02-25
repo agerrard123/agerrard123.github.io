@@ -146,6 +146,10 @@ body {
     margin: 2px;
 }
 
+.rows > .map-nav {
+    background: var(--cellar-slot-nav-background-color);
+}
+
 .hide-small {
     display:none;
 }
@@ -184,7 +188,7 @@ body {
     color:var(--nav-hover-color);
 }
 
-#image {
+#image, #remove-wine {
     max-width: 100%;
     height: auto;
 }
