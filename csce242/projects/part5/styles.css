@@ -77,7 +77,7 @@ body {
 }
 
 #news-articles {
-    border: 1px solid black;
+    border: 1px solid var(--header-footer-color);
     background: var(--news-background-color);
     color: var(--review-text-color);
 }
