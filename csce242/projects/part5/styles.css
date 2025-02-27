@@ -55,7 +55,7 @@ body {
     color: var(--nav-hover-color);
 }
 
-#yourCellar-background, #reviews-ratings-background {
+#yourCellar-background, #reviews-ratings-background, #main-page-background {
     background: var(--cellar-slot-backgoround-color);
 }
 
@@ -232,12 +232,20 @@ body {
         display: block;
     }
 
+    #main-page-background {
+        background: url(images/hand-bottles.jpg);
+    }
+
     #yourCellar-background {
         background: url(images/vertical-grapes.jpg);
     }
 
     #reviews-ratings-background {
         background: url(images/vineyard-field.jpg);
+    }
+
+    #add-tasting-notes {
+        margin-left: 0%;
     }
 
     .blocks {
