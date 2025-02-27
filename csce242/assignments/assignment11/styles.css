@@ -1,0 +1,26 @@
+:root {
+    --header-footer-color: peru;
+    --h2-color: brown;
+}    
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    margin:auto; /* center */
+}
+
+header, footer {
+    text-align: center;
+    padding: 5px;
+    color:var(--header-footer-color);
+}
+
+h2 {
+    color: var(--h2-color);
+}
+
+#columns {
+    background: darksalmon;
+}
