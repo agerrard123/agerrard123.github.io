@@ -22,13 +22,15 @@ h2 {
     color: var(--h2-color);
 }
 
-#columns {
+#pizza-list {
     background: var(--columns-background);
     display: flex;
 }
 
-#col1, #col2, #col3, #col4, #col5 {
+.pizza {
+    padding: 5px;
+    margin: 5px;
+    color: var(--h2-color);
     flex: 1;
     text-align: center;
-    /* margin-left: 140px; */
 }
