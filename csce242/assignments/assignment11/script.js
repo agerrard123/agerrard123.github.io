@@ -29,6 +29,7 @@ class Pizza {
 const displayPopup = (pizzas) => {
     const popup = document.getElementById("display-popup");
     popup.innerText = "";
+    const closeBtn = document.getElementById("close");
 
     popup.classList.remove("hidden");
     popup.classList.add("display");
