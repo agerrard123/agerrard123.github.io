@@ -1,6 +1,7 @@
 :root {
     --header-footer-color: peru;
     --h2-color: brown;
+    --columns-background: darksalmon;
 }    
 body {
     background-color: blanchedalmond;
@@ -22,5 +23,12 @@ h2 {
 }
 
 #columns {
-    background: darksalmon;
+    background: var(--columns-background);
+    display: flex;
+}
+
+#col1, #col2, #col3, #col4, #col5 {
+    flex: 1;
+    text-align: center;
+    /* margin-left: 140px; */
 }
