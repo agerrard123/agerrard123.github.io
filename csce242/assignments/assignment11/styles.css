@@ -37,7 +37,7 @@ h2 {
     text-align: center;
 }
 
-#display-popup {
+#popup {
     background:var(--popup-background);
     width: 70%;
     margin: auto;
@@ -71,5 +71,5 @@ p {
     text-align: right;
     cursor: pointer;
     right: 10px;
-    color: var(--header-footer-color);
+    color: black;
 }

@@ -27,9 +27,9 @@ class Pizza {
 }
 
 const displayPopup = (pizzas) => {
-    const popup = document.getElementById("display-popup");
+    const popup = document.getElementById("popup");
     popup.innerText = "";
-    const closeBtn = document.getElementById("close");
+    // const closeBtn = document.getElementById("close");
 
     popup.classList.remove("hidden");
     popup.classList.add("display");
@@ -66,3 +66,15 @@ window.onload = () => {
         pizzaList.append(pizzas[i].pizza);
     }
 }
+
+
+
+// document.querySelectorAll(".pizza section").forEach((pizzas)=>{
+//     pizzas.onclick = () => {
+//         const label = pizzas.querySelector("h4").innerText;
+//         const imgSRC = pizzas.querySelector("img").src;
+//         document.getElementById("popup").style.display="block";
+//         document.querySelector("#popup h2").innerText = label;
+//         document.querySelector("#popup img").src = imgSRC;
+//     }
+// });
