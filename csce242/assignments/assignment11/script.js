@@ -37,13 +37,18 @@ const displayPopup = (pizzas) => {
     h4.textContent = pizzas.name;
     popup.append(h4);
 
+    const container = document.createElement("section");
+    container.classList.add("pizza-info");
+
     const p = document.createElement("p");
     p.textContent = `Ingredients: ${pizzas.ingredients}\n\nSauce: ${pizzas.sauce}\n\nCheese: ${pizzas.cheese}\n\nPrice: ${pizzas.price}`;
-    popup.append(p);
+    container.append(p);
 
     const img = document.createElement("img");
     img.src = pizzas.pic;
-    popup.append(img);
+    container.append(img);
+
+    popup.append(container);
 }
 
 window.onload = () => {

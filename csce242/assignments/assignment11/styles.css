@@ -2,6 +2,8 @@
     --header-footer-color: peru;
     --h2-color: brown;
     --columns-background: darksalmon;
+    --popup-background: indianred;
+    --popup-color: darkred;
 }    
 body {
     background-color: blanchedalmond;
@@ -36,16 +38,30 @@ h2 {
 }
 
 #display-popup {
-    background: blue;
+    background:var(--popup-background);
     width: 70%;
     margin: auto;
     padding: 10px;
+}
+
+.pizza-info {
+    display:flex;
+}
+
+.pizza-info img {
+    margin-left: 400px;
 }
 
 .hidden {
     display: none;
 }
 
+h4 {
+    font-size: larger;
+    color:var(--popup-color);
+}
+
 p {
     white-space: pre-line;
+    color: var(--popup-color);
 }
