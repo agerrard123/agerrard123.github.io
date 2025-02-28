@@ -1,0 +1,134 @@
+[
+    {
+        "_id": 1,
+        "name": "Gundlach Bundschu",
+        "vintage": "2010",
+        "price": "40.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "A1",
+        "characteristics": [],
+        "img_name": "images/wine01.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "Rutherford",
+        "vintage": "2015",
+        "price": "54.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "A2",
+        "characteristics": [],
+        "img_name": "images/wine02.jpg"
+    },
+    {
+        "_id": 3,
+        "name": "Cabernet Sauvignon",
+        "vintage": "2014",
+        "price": "45.86",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "A3",
+        "characteristics": [],
+        "img_name": "images/wine03.jpg"
+    },
+    {
+        "_id": 4,
+        "name": "Pinot Noir",
+        "vintage": "2017",
+        "price": "129.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "A4",
+        "characteristics": [],
+        "img_name": "images/wine04.jpg"
+    },
+    {
+        "_id": 5,
+        "name": "Pinot Noir",
+        "vintage": "2019",
+        "price": "100.00",
+        "country": "United States",
+        "region": "Sonoma Coast",
+        "cellarLocation": "B1",
+        "characteristics": [],
+        "img_name": "images/wine05.jpg"
+    },
+    {
+        "_id": 6,
+        "name": "Meadowcroft",
+        "vintage": "2021",
+        "price": "42.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "B2",
+        "characteristics": [],
+        "img_name": "images/wine06.jpg"
+    },
+    {
+        "_id": 7,
+        "name": "Zinfandel",
+        "vintage": "2014",
+        "price": "48.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "B3",
+        "characteristics": [],
+        "img_name": "images/wine07.jpg"
+    },
+    {
+        "_id": 8,
+        "name": "Reserve",
+        "vintage": "2005",
+        "price": "32.80",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "B4",
+        "characteristics": [],
+        "img_name": "images/wine08.jpg"
+    },
+    {
+        "_id": 9,
+        "name": "Grenache Rose",
+        "vintage": "2023",
+        "price": "45.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "C1",
+        "characteristics": [],
+        "img_name": "images/wine09.jpg"
+    },
+    {
+        "_id": 10,
+        "name": "Ritual",
+        "vintage": "2015",
+        "price": "60.00",
+        "country": "United States",
+        "region": "California",
+        "cellarLocation": "C2",
+        "characteristics": [],
+        "img_name": "images/wine10.jpg"
+    },
+    {
+        "_id": 11,
+        "name": "Chateau Du Pape La Mitre",
+        "vintage": "2007",
+        "price": "70.00",
+        "country": "France",
+        "region": "Vallée du Rhône",
+        "cellarLocation": "C3",
+        "characteristics": [],
+        "img_name": "images/wine11.jpg"
+    },
+    {
+        "_id": 12,
+        "name": "Cavaliere",
+        "vintage": "2018",
+        "price": "68.00",
+        "country": "Italy",
+        "region": "Toscana",
+        "cellarLocation": "C4",
+        "characteristics": [],
+        "img_name": "images/wine12.jpg"
+    }
+]
