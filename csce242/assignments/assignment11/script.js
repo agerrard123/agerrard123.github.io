@@ -33,8 +33,6 @@ const showInfo = (pizzas) => {
 
     document.querySelector("#popup img").src = pizzas.pic;
 
-    const p = document.createElement("p");
-
     document.querySelector("#popup p").innerText = `Ingredients: ${pizzas.ingredients}\n\nSauce: ${pizzas.sauce}\n\nCheese: ${pizzas.cheese}\n\nPrice: ${pizzas.price}`;
 }
 

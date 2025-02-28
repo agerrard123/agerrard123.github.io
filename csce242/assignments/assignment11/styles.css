@@ -49,6 +49,11 @@ h2 {
 
 .pizza-info img {
     margin-left: 455px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: spin;
+    animation-duration: 4s;
 }
 
 .hidden {
@@ -67,10 +72,8 @@ p {
     color: var(--popup-color);
 }
 
-#close {
-    position: absolute;
-    text-align: right;
-    cursor: pointer;
-    right: 10px;
-    color: black;
+@keyframes spin {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
 }
