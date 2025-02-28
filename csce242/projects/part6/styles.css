@@ -1,0 +1,276 @@
+/* Structure */
+:root {
+    --main-background-color: rgba(255, 255, 255, .7);
+    --header-footer-color: rgb(88, 47, 14);
+    --nav-color: white;
+    --nav-hover-color: rgb(127, 79, 36);
+    --nav-background-color:#451C01;
+    --news-background-color: rgb(65, 92, 2, .7);
+    --reviews-background-color: rgb(69, 28, 1, .7);
+    --wine-block-background-color: #9E7A48;
+    --cellar-slot-nav-background-color: rgb(166, 138, 100);
+    --cellar-slot-backgoround-color: rgb(182, 173, 144);
+    --border-color: rgb(127, 79, 36);
+    --border-block-color: rgb(127, 79, 36);
+    --review-text-color: linen;
+}
+
+#main-header, #main-footer {
+    color: var(--header-footer-color);
+    text-align: center;
+    
+}
+
+body {
+    background: url(images/hand-bottles.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    text-align: center;
+    padding: 10px;
+}
+
+#content {
+    background:var(--main-background-color);
+    width:80%;
+    margin:auto; /* center */
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius:10px;
+}
+
+#wine-form {
+    text-align: center;
+}
+
+#add-wine-form, #remove-wine, #add-tasting-notes {
+    text-align: center;
+    padding: 5px;
+    background: var(--nav-background-color);
+    color: var(--nav-color);
+}
+
+#add-wine-form:hover, #remove-wine:hover, #add-tasting-notes:hover {
+    color: var(--nav-hover-color);
+}
+
+#yourCellar-background, #reviews-ratings-background, #main-page-background {
+    background: var(--cellar-slot-backgoround-color);
+}
+
+#map-background {
+    background: url(images/wooden-barrels.jpg);
+}
+
+#wine-history-background {
+    background: url(images/corks.jpg);
+}
+
+#wine p {
+    text-align: left;
+}
+
+#news-articles-header {
+    text-align: center;
+    color: var(--header-footer-color);
+}
+
+#news-articles {
+    border: 1px solid var(--header-footer-color);
+    background: var(--news-background-color);
+    color: var(--review-text-color);
+}
+
+#reviews-background {
+    background: var(--reviews-background-color);
+}
+
+.style, .news-style {
+    background:var(--wine-block-background-color);
+    text-align: center;
+    padding:10px;
+    margin: 30px;
+    border-radius: 5px;
+    padding-top: 50px;
+    color:#100C10;
+}
+
+.picture {
+    text-align: center;
+}
+
+.tasting-notes {
+    text-align: center;
+}
+
+.bottle-img {
+    text-align: center;
+    padding: 5px;
+}
+
+.column {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: var(--wine-block-background-color);
+    text-align: center;
+    padding: 5px;
+}
+
+.slot {
+    /* background:var(--cellar-slot-backgoround-color); */
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    width: 15%;
+    height: 100px;
+    text-align: center;
+    padding:5px;
+    display: grid;
+    margin-top: 5px;
+}
+
+.rows {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.rows > div {
+    background:var(--cellar-slot-backgoround-color);
+    text-align: center;
+    border: 2px solid var(--border-block-color);
+    padding: 5px;
+    margin: 2px;
+}
+
+.rows > .map-nav {
+    background: var(--cellar-slot-nav-background-color);
+}
+
+.hide-small {
+    display:none;
+}
+
+#review-text {
+    color: var(--review-text-color);
+}
+
+/*Navigation */
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color: var(--border-color);
+    margin: 6px 0;
+}
+
+#main-nav ul {
+    padding-left: 0;
+}
+
+#main-nav li {
+    list-style-type: none; /*remove the bullets */
+    padding: 5px;
+    background:var(--nav-background-color);
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+}
+
+#main-nav a {
+    color:var(--nav-color);
+    text-decoration: none; /* remove the underlines */
+    border-bottom:1px solid transparent;
+}
+
+#main-nav a:hover {
+    color:var(--nav-hover-color);
+}
+
+#image, #remove-wine {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-div {
+    position:relative;
+    margin-bottom: 30px;
+
+}
+
+#img-div-header {
+    position:absolute;
+    margin:0;
+    bottom:4px;
+    left:0%;
+    text-align:left;
+    background:rgba(0,0,0, 0.8);
+    color:white;
+    padding:10px 20px;
+    display: none;
+    max-width: 50%;
+}
+
+/* Larger Resolutions */
+@media (min-width: 900px) {
+    #toggle-nav {
+        display: none;
+    }
+
+    #main-nav ul {
+        display: flex;
+        text-align: center;
+    }
+
+    #main-nav li{
+        flex: 1;
+        border-right: 1px solid var(--border-color);
+        border-left: 1px solid var(--border-color);
+    }
+
+    #img-div-header {
+        position: absolute;
+        max-height: auto;
+        max-width: 100%;
+        display: block;
+    }
+
+    #main-page-background {
+        background: url(images/hand-bottles.jpg);
+    }
+
+    #yourCellar-background {
+        background: url(images/vertical-grapes.jpg);
+    }
+
+    #reviews-ratings-background {
+        background: url(images/vineyard-field.jpg);
+    }
+
+    #add-tasting-notes {
+        margin-left: 0%;
+    }
+
+    .blocks {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .style, .news-style {
+        width: 25.5%;
+        text-align: center;
+        padding:15px 10px;
+        margin-left: 40.4px;
+        
+    }
+
+    .tasting-notes {
+        display: flex;
+    }
+
+    .column {
+        display: flex;
+        text-align: left;
+    }
+
+    .hide-small {
+        display:flex;
+    }
+}
