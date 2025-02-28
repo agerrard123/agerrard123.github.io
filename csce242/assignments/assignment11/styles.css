@@ -37,13 +37,6 @@ h2 {
     text-align: center;
 }
 
-/* #popup {
-    background:var(--popup-background);
-    width: 70%;
-    margin: auto;
-    padding: 10px;
-} */
-
 .head {
     background: var(--popup-background);
 }
