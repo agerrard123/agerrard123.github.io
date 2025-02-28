@@ -53,7 +53,7 @@ h2 {
     height: 200px;
     position: relative;
     animation-name: spin;
-    animation-duration: 4s;
+    animation-duration: 3s;
 }
 
 .hidden {
@@ -74,6 +74,5 @@ p {
 
 @keyframes spin {
     0% {transform: rotate(0deg);}
-    50% {transform: rotate(180deg);}
     100% {transform: rotate(360deg);}
 }
