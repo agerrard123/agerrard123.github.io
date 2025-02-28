@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Assignment 11</title>
-    </head>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Assignment 11</title>
+  </head>
     <body>
-        <div id="content">
-            <header>
-                <h1>Assignment 11</h1>
-                <h2>Classes</h2>
+      <div id="content">
+        <header>
+          <h1>Assignment 11</h1>
+          <h2>Classes</h2>
+        </header>
+        <main>
+          <section id = "pizza-list"></section>
+          <!-- <section id = "popup" class = "hidden"></section> -->
+        </main>
+        <footer>
+          <p>Images from FreePik</p>
+        </footer>
+
+
+
+        <div id="popup" class="w3-modal">
+          <div class="w3-modal-content">
+              
+            <header class="head">
+              <span onclick="document.getElementById('popup').style.display='none'"
+              class="w3-button w3-display-topright">&times;</span>
+              <h4></h4>
             </header>
-            <main>
-                <section id = "pizza-list"></section>
-                <section id = "popup" class = "hidden"></section>
-            </main>
-            <footer>
-                <p>Images from FreePik</p>
-            </footer>
-
-
-
-            <!-- <div id="popup" class="w3-modal">
-                <div class="w3-modal-content">
               
-                  <header class="w3-container w3-teal">
-                    <span onclick="document.getElementById('popup').style.display='none'"
-                    class="w3-button w3-display-topright">&times;</span>
-                    <h2></h2>
-                  </header>
+            <div class="pizza-info">
+              <p></p>
+              <img src="">
+            </div>
               
-                  <div class="w3-container">
-                    <p>Some text..</p>
-                    <img src="">
-                  </div>
+            <!-- <footer class="w3-container w3-teal">
+              <p>Modal Footer</p>
+            </footer> -->
               
-                  <footer class="w3-container w3-teal">
-                    <p>Modal Footer</p>
-                  </footer>
-              
-                </div>
-              </div> -->
-
+          </div>
         </div>
-        <script src="script.js"></script>
-    </body>
+
+      </div>
+      <script src="script.js"></script>
+  </body>
 </html>
