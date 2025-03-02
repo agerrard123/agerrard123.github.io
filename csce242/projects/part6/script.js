@@ -34,6 +34,11 @@ const getCellarItem = (wine) => {
 
     wineSection.append(getWineInfo(wine));
 
+    const button = document.createElement("button");
+    button.classList.add("remove-wine");
+    button.innerHTML = "Remove Wine";
+    wineSection.append(button);
+
     return wineSection;
 }
 
