@@ -29,6 +29,7 @@ const getCellarItem = (wine) => {
     wineSection.classList.add("style");
 
     const img = document.createElement("img");
+    img.classList.add("image");
     img.src = wine.img_name;
     wineSection.append(img);
 
