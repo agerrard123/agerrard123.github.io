@@ -55,6 +55,10 @@ body {
     color: var(--nav-hover-color);
 }
 
+.remove-wine {
+    margin: 5px;
+}
+
 #yourCellar-background, #reviews-ratings-background, #main-page-background {
     background: var(--cellar-slot-backgoround-color);
 }
