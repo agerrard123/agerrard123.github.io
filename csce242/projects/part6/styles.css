@@ -67,13 +67,20 @@ body {
     background: url(images/corks.jpg);
 }
 
-#wine p {
-    text-align: left;
+.wine-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.wine-p {
-    text-align: left;
+.wine-p-1, .wine-p-2 {
+    margin: 0;
+    white-space: nowrap;
 }
+
+/* .wine-p-2 {
+    text-align: right;
+} */
 
 #news-articles-header {
     text-align: center;
@@ -277,4 +284,5 @@ body {
     .hide-small {
         display:flex;
     }
+
 }

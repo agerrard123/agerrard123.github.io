@@ -32,7 +32,17 @@ const getCellarItem = (wine) => {
     img.src = wine.img_name;
     wineSection.append(img);
 
-    wineSection.append(getWineInfo(wine));
+    const wineInfoContainer = document.createElement("div");
+    wineInfoContainer.classList.add("wine-info-container");
+
+    const p = document.createElement("p");
+    p.classList.add("wine-p-1");
+    p.innerHTML = `Winery: <br>Vintage: <br>Price: <br>Country: <br>Region: <br>Location in Cellar: <br>Characteristics: `;
+
+    const wineInfo = getWineInfo(wine);
+
+    wineInfoContainer.append(p, wineInfo);
+    wineSection.append(wineInfoContainer);
 
     const button = document.createElement("button");
     button.classList.add("remove-wine");
@@ -44,8 +54,8 @@ const getCellarItem = (wine) => {
 
 const getWineInfo = (wine) => {
     const p = document.createElement("p");
-    p.classList.add("wine-p")
-    p.innerHTML = `Winery: ${wine.winery}<br>Vintage: ${wine.vintage}<br>Price: $${wine.price}<br>Country: ${wine.country}<br>Region: ${wine.region}<br>Location in Cellar: ${wine.cellarLocation}<br>Characteristics: ${wine.characteristics}`;
+    p.classList.add("wine-p-2");
+    p.innerHTML = `${wine.winery}<br>${wine.vintage}<br>$${wine.price}<br>${wine.country}<br>${wine.region}<br>${wine.cellarLocation}<br>${wine.characteristics}`;
     return p;
 }
 
