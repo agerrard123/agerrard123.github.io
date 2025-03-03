@@ -69,13 +69,21 @@ body {
 
 .wine-info-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    /* justify-content: space-between; */
+    /* width: 100%; */
 }
 
-.wine-p-1, .wine-p-2 {
+/* .wine-p-1, .wine-p-2 {
     margin: 0;
     white-space: nowrap;
+} */
+
+.wine-p-1 {
+    text-align: left;
+}
+
+.wine-p-2 {
+    text-align: right;
 }
 
 /* .wine-p-2 {

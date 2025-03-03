@@ -7,7 +7,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "A1",
-        "characteristics": ["Red wine", "Grape: Cabernet Sauvignon", "Dry"],
+        "characteristics": ["Red wine", " Cabernet Sauvignon", " Dry"],
         "img_name": "images/wine01.jpg"
     },
     {
@@ -18,7 +18,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "A2",
-        "characteristics": ["Red wine", "Grape: Cabernet Sauvignon", "Dry"],
+        "characteristics": ["Red wine", " Cabernet Sauvignon", " Dry"],
         "img_name": "images/wine02.jpg"
     },
     {
@@ -29,7 +29,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "A3",
-        "characteristics": ["Red wine", "Grape: Cabernet Sauvignon", "Dry"],
+        "characteristics": ["Red wine", " Cabernet Sauvignon", " Dry"],
         "img_name": "images/wine03.jpg"
     },
     {
@@ -40,7 +40,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "A4",
-        "characteristics": ["Red wine", "Grape: Pinot Noir", "Dry"],
+        "characteristics": ["Red wine", " Pinot Noir", " Dry"],
         "img_name": "images/wine04.jpg"
     },
     {
@@ -51,7 +51,7 @@
         "country": "United States",
         "region": "Sonoma Coast",
         "cellarLocation": "B1",
-        "characteristics": ["Red wine", "Grape: Pinot Noir", "Dry"],
+        "characteristics": ["Red wine", " Pinot Noir", " Dry"],
         "img_name": "images/wine05.jpg"
     },
     {
@@ -62,7 +62,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "B2",
-        "characteristics": ["Red wine", "Grape: Pinot Noir", "Dry"],
+        "characteristics": ["Red wine", " Pinot Noir", " Dry"],
         "img_name": "images/wine06.jpg"
     },
     {
@@ -73,7 +73,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "B3",
-        "characteristics": ["Red wine", "Grape: Zinfandel", "Dry"],
+        "characteristics": ["Red wine", " Zinfandel", " Dry"],
         "img_name": "images/wine07.jpg"
     },
     {
@@ -84,7 +84,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "B4",
-        "characteristics": ["Red wine", "Grape: Zinfandel", "Dry"],
+        "characteristics": ["Red wine", " Zinfandel", " Dry"],
         "img_name": "images/wine08.jpg"
     },
     {
@@ -95,7 +95,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "C1",
-        "characteristics": ["Rose", "Grape: Grenache", "Dry"],
+        "characteristics": ["Rose", " Grenache", " Dry"],
         "img_name": "images/wine09.jpg"
     },
     {
@@ -106,7 +106,7 @@
         "country": "United States",
         "region": "California",
         "cellarLocation": "C2",
-        "characteristics": ["Red wine", "Grape: Cabernet Blend", "Dry"],
+        "characteristics": ["Red wine", " Cabernet Blend", " Dry"],
         "img_name": "images/wine10.jpg"
     },
     {
@@ -117,7 +117,7 @@
         "country": "France",
         "region": "Vallée du Rhône",
         "cellarLocation": "C3",
-        "characteristics": ["Red wine", "Grape: Grenache", "Dry"],
+        "characteristics": ["Red wine", " Grenache", " Dry"],
         "img_name": "images/wine11.jpg"
     },
     {
@@ -128,7 +128,7 @@
         "country": "Italy",
         "region": "Toscana",
         "cellarLocation": "C4",
-        "characteristics": ["Red wine", "Grape: Sangiovese and Merlot Blend"],
+        "characteristics": ["Red wine", " Sangiovese and Merlot Blend", " Dry"],
         "img_name": "images/wine12.jpg"
     }
 ]
