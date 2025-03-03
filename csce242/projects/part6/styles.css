@@ -69,13 +69,12 @@ body {
 
 .wine-info-container {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 100%;
 }
 
 .wine-p-1, .wine-p-2 {
     margin: 0;
-    /* white-space: nowrap; */
 }
 
 .wine-p-1 {
@@ -85,10 +84,6 @@ body {
 .wine-p-2 {
     text-align: right;
 }
-
-/* .wine-p-2 {
-    text-align: right;
-} */
 
 #news-articles-header {
     text-align: center;
@@ -292,5 +287,12 @@ body {
     .hide-small {
         display:flex;
     }
+
+    .wine-info-container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
 
 }
