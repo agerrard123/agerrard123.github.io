@@ -17,7 +17,7 @@ const getYourCellar = async () => {
 
 const showYourCellar = async () => {
     let yourCellar = await getYourCellar();
-    let winesDiv = document.getElementById("wines-div");
+    let winesDiv = document.getElementById("wine-list");
 
     yourCellar.forEach((wine) =>
         winesDiv.append(getCellarItem(wine))
