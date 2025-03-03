@@ -154,6 +154,7 @@ body {
     border: 2px solid var(--border-block-color);
     padding: 5px;
     margin: 2px;
+    overflow: hidden;
 }
 
 .rows > .map-nav {
