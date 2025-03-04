@@ -38,7 +38,7 @@ const getCellarItem = (wine) => {
 
     const p = document.createElement("p");
     p.classList.add("wine-p-1");
-    p.innerHTML = `Winery: <br>Vintage: <br>Price: <br>Country: <br>Region: <br>Location: <br>Characteristics: `;
+    p.innerHTML = `Winery: <br>Vintage: <br>Price: <br>Country: <br>Region: <br>Description: <br>Grape: <br>Location In Cellar: `;
 
     const wineInfo = getWineInfo(wine);
 
@@ -56,7 +56,7 @@ const getCellarItem = (wine) => {
 const getWineInfo = (wine) => {
     const p = document.createElement("p");
     p.classList.add("wine-p-2");
-    p.innerHTML = `${wine.winery}<br>${wine.vintage}<br>$${wine.price}<br>${wine.country}<br>${wine.region}<br>${wine.cellarLocation}<br>${wine.characteristics}`;
+    p.innerHTML = `${wine.winery}<br>${wine.vintage}<br>$${wine.price}<br>${wine.country}<br>${wine.region}<br>${wine.description}<br>${wine.grape}<br>${wine.cellarLocation}`;
     return p;
 }
 
