@@ -74,19 +74,14 @@ body {
 .wine-info-container {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 293px;
+    margin: auto;
+    
 }
 
 .wine-p-1, .wine-p-2 {
-    margin: 0;
-}
-
-.wine-p-1 {
     text-align: left;
-}
-
-.wine-p-2 {
-    text-align: left;
+    white-space: nowrap;
 }
 
 #news-articles-header {
@@ -203,7 +198,7 @@ body {
     color:var(--nav-hover-color);
 }
 
-#image, .remove-wine, .rows, .image, .wine-p-2 {
+#image, .remove-wine, .rows, .image, .wine-info-container {
     max-width: 100%;
     height: auto;
 }
@@ -293,11 +288,7 @@ body {
         display:flex;
     }
 
-    .wine-info-container {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
+    
 
 
 }
