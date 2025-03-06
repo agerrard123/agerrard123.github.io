@@ -5,7 +5,7 @@
     --nav-color: white;
     --nav-hover-color: rgb(127, 79, 36);
     --nav-background-color:#451C01;
-    --news-background-color: rgb(65, 92, 2, .7);
+    --news-background-color: rgba(70, 86, 35, 0.7);
     --reviews-background-color: rgb(69, 28, 1, .7);
     --wine-block-background-color: rgba(177, 143, 123, 0.7);
     --cellar-slot-nav-background-color: rgb(166, 138, 100);
@@ -101,6 +101,7 @@ body {
 
 .style, .news-style {
     background:var(--wine-block-background-color);
+    border: 1px solid var(--border-color);
     text-align: center;
     padding:10px;
     margin: 30px;
