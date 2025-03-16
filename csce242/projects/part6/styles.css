@@ -79,6 +79,10 @@ body {
     
 }
 
+.wine-p-1 {
+    font-weight: bold;
+}
+
 .wine-p-1, .wine-p-2 {
     text-align: left;
     white-space: nowrap;
