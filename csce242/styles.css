@@ -38,8 +38,13 @@ ul {
     padding: 0;
 }
 
-li {
+#link {
     border-bottom: 1px solid black;
+}
+
+#link:hover {
+    color: gainsboro;
+    border-bottom: 1px solid gainsboro;
 }
 
 @media (min-width: 900px) {
