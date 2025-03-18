@@ -293,7 +293,19 @@ body {
         display:flex;
     }
 
-    
+    #form {
+        margin-right: 500px;
+        text-align: center;
+    }
+
+    #video {
+        height: 300px;
+        width: 300px;
+    }
+
+    #form-map {
+        display: flex;
+    }
 
 
 }
