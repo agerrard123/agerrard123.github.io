@@ -293,15 +293,23 @@ body {
         display:flex;
     }
 
+    /*form*/
+    form label {
+        display: block;
+    }
+
     #form {
         margin-left: 300px;
         text-align: left;
     }
 
     #map {
-        height: 300px;
-        width: 300px;
-        margin-left: 100px;
+        display: block;
+        padding: 5px;
+        max-width: 100%;
+        width: 100%;
+        height: 120%;
+        margin: 0 2%;
     }
 
     #form-map {

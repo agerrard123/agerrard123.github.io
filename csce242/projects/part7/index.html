@@ -46,26 +46,68 @@
                     <img id = "image" src="images/article03.png" alt="wine01">
                 </section>
             </div>
+            <!--Contact Us-->
             <h2 id = "news-articles-header">Contact Us</h2>
             <section id="form-map">
-                <div id = "form">
+                <form 
+                    id = "form-email"
+                    action = "https://api.web3forms.com/submit"
+                    method = "POST"
+                >
+                    <input 
+                        type="hidden" 
+                        name="access_key" 
+                        value="eab119bd-db9f-4652-9e63-b17721b6bd30" 
+                    />
+
                     <p>
-                        <label for="email">Enter Your E-mail:</label><br>
-                        <input type="email" email="email" required placeholder="Enter a valid e-mail">
+                        <label for="name">Name:</label>
+                        <input
+                            id="name"
+                            type="text"
+                            placeholder="First and Last"
+                            name="name"
+                            required
+                        />
                     </p>
                     <p>
-                        <label for="message">Write Your Message:</label><br>
-                        <textarea id="message" name="message"></textarea>
+                        <label for="email-address">E-mail:</label>
+                        <input id="email-address" type="email" name="email" required>
                     </p>
-                </div>
-                <div>
-                    <iframe id="map" src="https://www.google.com/maps/place/Wine+Storage,+2277,+Napa,+CA+94558/@38.270248,-122.2751003,16z/data=!3m1!4b1!4m6!3m5!1s0x808508a85f13fc8f:0xca7f475cc282515!8m2!3d38.270248!4d-122.2751003!16s%2Fg%2F1ptznqy8l?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" style="border: 0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    <p>
+                        <label for="message">Write Your Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </p>
+                    <input
+                        type="hidden"
+                        name="redirect"
+                        value="https://web3forms.com/success"
+                    />
+                    <input
+                        type="hidden"
+                        name="subject"
+                        value="Contact from Wine Website"
+                    />
+                    <input type="hidden" name="from_name" value="My Website"/>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                    <p id = "result"></p>
+                </form>
+                <iframe
+                    id="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99918.94919575071!2d-122.55179703267274!3d38.49993539636014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808450b81b2ff8ed%3A0xb14fc725f82e8fa5!2sNapa%20Valley%20Wine%20Warehouse!5e0!3m2!1sen!2sus!4v1742398782714!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
             </section>
+            
             <footer id = "main-footer">
                 <p>&copy; adamgerrard</p>
             </footer>
         </div>
         <script src="script.js"></script>
+        <script src="form.js"></script>
     </body>
 </html>
