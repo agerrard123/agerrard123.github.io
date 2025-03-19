@@ -294,13 +294,14 @@ body {
     }
 
     #form {
-        margin-right: 500px;
-        text-align: center;
+        margin-left: 300px;
+        text-align: left;
     }
 
-    #video {
+    #map {
         height: 300px;
         width: 300px;
+        margin-left: 100px;
     }
 
     #form-map {
