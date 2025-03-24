@@ -241,6 +241,10 @@ body {
         margin: 0 2%;
     }
 
+    #form-email, #message {
+        font-family: inherit;
+    }
+
 /* Larger Resolutions */
 @media (min-width: 900px) {
     #toggle-nav {
@@ -306,8 +310,6 @@ body {
     .hide-small {
         display:flex;
     }
-
-
 
     #form-map {
         display: flex;
