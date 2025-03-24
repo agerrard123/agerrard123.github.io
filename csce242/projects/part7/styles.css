@@ -232,16 +232,20 @@ body {
         display: block;
     }
 
+    #news-articles {
+        align-items: center;
+    }
+
     #map {
         display: block;
         padding: 5px;
         max-width: 100%;
-        width: 50%;
+        width: 93%;
         height: 250px;
         margin: 0 2%;
     }
 
-    #form-email, #message {
+    #news-articles, #message {
         font-family: inherit;
     }
 
@@ -313,10 +317,11 @@ body {
 
     #form-map {
         display: flex;
-        margin-left: 15%;
+        margin-left: 5%;
     }
 
     #map {
-        margin-left: 120px;
+        margin-left: 100px;
+        margin-top: 35px;
     }
 }
